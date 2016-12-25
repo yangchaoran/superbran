@@ -1,0 +1,10 @@
+<nav>
+    <ul>
+        <li><a href="{siteurl($siteid)}">首页</a></li>
+        {pc:content action="category" postid="1" order="listorder ASC" num="4"}
+        {loop $data $v}
+        <li><a href="{$v[url]}">{$v[catname]}</a></li>
+        {/loop}
+        {/pc}
+    </ul>	
+</nav>

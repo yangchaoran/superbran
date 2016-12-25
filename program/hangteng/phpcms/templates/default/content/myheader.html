@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢腾鞋业</title>
+</head>
+<link rel="stylesheet" href="{CSS_PATH}mycss/normalize.css">
+<link rel="stylesheet" href="{CSS_PATH}mycss/index.css">
+<link rel="stylesheet" href="{CSS_PATH}mycss/about.css
+">
+<script src="{JS_PATH}myjs/jquery.js"></script>
+<script src="{JS_PATH}myjs/index.js"></script>
+<body>
+<div id="wrapper">
+<!-- 网页首部 -->
+	<div id="header">
+		<div class="box">
+			<div class="item1">
+				<em>·</em>
+				<a href="##" class="n1"><span>欢迎进入本网站!</span></a>
+			</div>
+			<ul>
+				<li class="item">
+					<em></em>
+					<a href="##" class="n2">设为首页</a></li>
+				<li class="item">
+					<em></em>
+					<a href="##" class="n3">加入收藏</a>
+				</li>
+				<li class="item">
+					<em></em>
+					<a href="##" class="n4">联系我们</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- 导航区 -->
+	<div id="#Nav_w">
+	<div class="box">
+		<div class="nav">
+			<div class="logo">
+				<img src="{IMG_PATH}myimg/logo.png">
+			</div>
+			<ul class="navgation">
+			{pc:content action="category" catid="0" num="7" }
+			{loop $data $v}
+				<li class="list" style="background: url({$v[image]}) center no-repeat">
+					<a href="{$v[url]}" class="link">{$v[catename]}</a>
+				</li>
+				<!-- <li class="list nav2"><a href="#" class="link"></a></li>
+				<li class="list nav3"><a href="#" class="link"></a></li>
+				<li class="list nav4"><a href="#" class="link"></a></li>
+				<li class="list nav5"><a href="#" class="link"></a></li>
+				<li class="list nav6"><a href="#" class="link"></a></li>
+				<li class="list nav7"><a href="#" class="link"></a></li> -->
+			{/loop}
+			{/pc}
+			</ul>
+		</div>
+
+	</div>
+	
+	</div>

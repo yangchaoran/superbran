@@ -1,0 +1,23 @@
+{template "content","myheader"}
+{template "content","nav"}
+<link rel="stylesheet" href="{CSS_PATH/mycss/summary.css}">
+<section>
+    <article>
+        <div class="" id="article">
+            {pc:content action="lists" catid="3" moreinfo="1"}
+            {loop $data $v}
+            <div class="title" >{$v[title]}</div>
+            <div class="article" >
+                {$v[content]}
+            </div>
+            {/loop}
+            {/pc}　
+        </div>
+    </article>
+</section>
+<footer>
+    <p>临汾方圆建设监理有限公司</p>
+    <p>晋ICP备13005861号-1</p>
+</footer>
+</body>
+</html>

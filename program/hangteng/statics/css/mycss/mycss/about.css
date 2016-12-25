@@ -1,0 +1,81 @@
+.contaninor{
+    margin-top: 12px;
+}
+.ab-banner {
+    height: 304px;
+    width: 100%;
+    background: url(../../images/myimg/zy_ban.png) no-repeat center;
+    border-top: 2px solid #525252;
+    border-bottom: 2px solid #525252;
+}
+.zy-banner{
+    height: 304px;
+    background: url(../../images/myimg/zy_banner.png) no-repeat center;
+}
+.body-left{
+    width: 232px;
+    float: left;
+    background: url(../../images/myimg/sub.png) no-repeat left top;
+    height: 527px;
+}
+.body-right{
+
+    width: 765px;
+    float: right;
+    background: url(../../images/myimg/right_bg.png)
+}
+.title {
+    height: 39px;
+    line-height: 39px;
+    background: url(../../images/myimg/title.png) no-repeat;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.title span {
+    float: left;
+    padding-left: 19px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #f1f1f1;
+}
+.title span em {
+    font-size: 10px;
+    color: #7d7d7d;
+    padding-left: 5px;
+    float: none;
+}
+.title em {
+    float: right;
+    padding-right: 22px;
+    color: #dadada;
+}
+.title em a {
+    color: #dadada;
+}
+.danye_show {
+    padding: 28px;
+    line-height: 24px;
+}
+.body-left ul {
+    padding-top: 85px;
+    padding-bottom: 30px;
+}
+.body-left ul li {
+    width: 232px;
+    height: 43px;
+    text-align: center;
+    line-height: 34px;
+    font-family: "微软雅黑";
+    background: url(../../images/myimg/ub.png) no-repeat 0 34px;
+}
+.body-left ul li a {
+    width: 232px;
+    height: 43px;
+    display: block;
+    color: #8e8b8a;
+}
+.body-left ul li a:hover {
+    background: url(../../images/myimg/sub_hover.png) no-repeat;
+    color: #491304;
+    font-size: 16px;
+}

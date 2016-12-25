@@ -1,0 +1,25 @@
+{template "content","myheader"}
+{template "content","nav"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/index.css">
+<link rel="stylesheet" href="{CSS_PATH/mycss/news.css}">
+<section>
+    <ul id="news">
+        {pc:content action="lists" catid="$catid" num="1" page="$page" order="id DESC" moreinfo="1"}
+        <li class="newsTile">
+            <h3 class="articleTitle">{$title}</h3>
+            <div class="updateTime">发表于：{$inputtime}</div>
+            <p class="articleContent">{$content}</p>
+            <p class="tzh">
+                <strong>上一篇：<a href="{$previous_page[url]}">{$previous_page[title]}</a></strong>
+                <strong>下一篇：<a href="{$next_page[url]}">{$next_page[title]}</a></strong>
+            </p>
+        </li>
+        {/pc}
+    </ul>
+</section>
+<footer>
+    <p>临汾方圆建设监理有限公司</p>
+    <p>晋ICP备13005861号-1</p>
+</footer>
+</body>
+</html>

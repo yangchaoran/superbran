@@ -1,0 +1,40 @@
+.Products_list {
+    padding: 24px;
+}
+.clear {
+    clear: both;
+}
+#body_right {
+    width: 765px;
+    float: right;
+    background: url(../../images/myimg/right_bg.png);
+}
+.Products_list li {
+    width: 207px;
+    float: left;
+    padding-left: 23px;
+}
+.Products_list li img {
+    width: 205px;
+    height: 145px;
+    border: 1px solid #d8d8d8;
+}
+.Products_list li p {
+    text-align: center;
+    padding: 11px 0 27px 0;
+}
+.Products_list li p a {
+    color: #838383;
+}
+.page {
+    margin-top: 30px;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 1px solid #b7b7b7;
+}
+.page a {
+    margin: 0 5px;
+    color: #6d6d6d;
+    font-size: 12px;
+}

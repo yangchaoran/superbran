@@ -1,0 +1,27 @@
+{template "content","myheader"}
+{template "content","nav"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/achievement.css">
+<section>
+    <div id="news">
+        <div class="news2" id="">
+            {pc:content  action="lists" catid="$catid"}
+            {loop $data $v}
+            <a href="{$v[url]}">
+                 <div class="news2_1">
+                    <div class="new2_1_12">
+                        {$v[title]}
+                    </div>
+                </div>
+            </a>
+            <div class="clearline"></div>
+            {/loop}
+            {/pc}
+        </div>
+    </div>
+</section>
+<footer>
+    <p>临汾方圆建设监理有限公司</p>
+    <p>晋ICP备13005861号-1</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{template "content","myheader"}
+{template "content","nav"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/index.css">
+<link rel="stylesheet" href="{CSS_PATH/mycss/news.css}">
+<section>
+    {pc:content action="lists" catid="$catid" moreinfo="1"}
+    {loop  $data $v}
+    <ul id="news">
+        <li class="newsTile">
+            <a href="{$v[url]}">{$v[title]}</a>
+
+        </li>
+    </ul>
+    {/loop}
+    {/pc}
+</section>
+<footer>
+    <p>临汾方圆建设监理有限公司</p>
+    <p>晋ICP备13005861号-1</p>
+</footer>
+</body>
+</html>

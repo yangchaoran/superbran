@@ -1,0 +1,71 @@
+{template "content","myheader"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/about.css">
+<link rel="stylesheet" href="{CSS_PATH}mycss/product.css">
+<!-- main -->
+<div id="main">
+	<div class="ab-banner">
+		<div class="zy-banner"></div>
+	</div>
+	<div class="box contaninor">
+	
+	<div class="body-left">
+	<ul>        	
+		<li><a href="index.php?p=productslist&amp;c_id=59&amp;lanmu=2">2014春夏款</a>        		
+        </li>
+    </ul>
+	</div>
+	<div id="body_right">
+    	<!--top-->
+        <div class="title">
+        	<span>产品展示<em>PRODUCTS</em></span>
+            <em><a href="index.php"> catpos($catid)</a> &gt; </em>
+        </div>
+        <!--topEnd-->
+        <!--con-->
+        <div class="Products_list">
+        	<ul>
+                {pc:content action="lists" catid="$catid" num="1" page="$page" order="id DESC" }
+                {loop $data $v}
+                <li>
+                    <a href=""><img src="{$v[thumb]}" alt="" style="width: 205px;height: 145px;"></a>;
+                    <p><a href="">{$v[title]}</a></p>
+                </li>
+                {/loop}
+
+            </ul>
+            <div class="clear"></div>
+
+                <div class="page">
+                    {$pages}
+                    <div class="clear"></div>
+			    </div>
+            {/pc}
+        </div>
+        <!--conEnd-->
+    </div>
+	</div>
+</div>
+<!--展示区  -->
+
+<!-- 网页底部 -->
+	<!-- <div id="footer">
+		<div class="erweima"></div>
+		<ul class="company-link">
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+			<li class="word"><a href=""></a></li>
+			<li class="segmentation">|</li>
+		</ul>
+		<div class="z"></div>
+	</div> -->
+{template "content","myfooter"}

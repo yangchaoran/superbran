@@ -1,0 +1,17 @@
+.article{
+    width: 98%;
+    text-align: left;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333333;
+}
+.title{
+    width: 98%;
+    text-align: left;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 36px;
+    margin-top: 15px;
+    height:36px;
+}

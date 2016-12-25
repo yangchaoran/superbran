@@ -1,0 +1,11 @@
+.leftTag form {
+   
+    padding: 2px 10px 1px;
+   
+}
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}

@@ -1,0 +1,30 @@
+.News_list {
+    padding: 25px;
+}
+.News_list li {
+    line-height: 28px;
+}
+.News_list li span {
+    float: left;
+    background: url(../image/news_l.png) no-repeat left center;
+    padding-left: 15px;
+    clear: both;
+}
+.News_list li em {
+    float: right;
+    color: #787777;
+    font-size: 12px;
+}
+.News_list li span a {
+    color: #787777;
+    font-size: 12px;
+}
+.News_list li article{
+    text-align: left;
+}
+.NewsTitle{
+    display: block;
+}
+.News_list li em{
+    display: block;
+}

@@ -1,0 +1,229 @@
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: "宋体",Arial, Helvetica, sans-serif;
+}
+*{
+	padding:0;
+	margin:0;
+	margin:0 auto;
+}
+img{
+	border: 0;
+    margin: 0;
+    padding: 0;
+}
+a,i,span,ul,ol,dl,p,h1,h2,h3,h4,h5,h6{
+    text-decoration: none;
+    list-style: none;
+    
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+em, i {
+    font-style: normal;
+}
+#wrapper{
+	background: #000;
+}
+#header{
+	width: 100%;
+    height: 36px;
+    overflow: hidden;
+    background: #0d0d0d;
+}
+.box {
+    width: 1015px;
+    margin: 0 auto;
+}
+.item em {
+    color: #ff6e27;
+}
+#header .item1 {
+    float: left;
+}
+#header ul {
+    float: right;
+    width: 300px;
+    background: url(../../images/myimg/head.png) no-repeat left center;
+    height: 36px;
+}
+#header ul li{
+    float: left;
+    padding-left: 23px;
+    width: 71px;
+
+}
+.item,span{
+	font-size:12px; 
+	color: #6b6b6b;
+	text-align: center;
+	line-height: 36px;
+}
+.n2,.n3,.n4{
+	color: #6b6b6b;
+}
+/*nav*/
+#Nav_w{
+    width: 100%;
+    height: 103px;
+    overflow: hidden;
+    background: url(../../images/myimg/nav.png) repeat-x;
+
+}
+
+.nav{
+    height: 103px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: 13px;
+    top: 26px;
+}
+.navgation{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navgation li{
+    width: 87px;
+    height: 100px;
+    float: left;
+
+}
+.navgation li a{
+	width: 87px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+	color: #fff;
+	font-size: 12px;
+}
+/*.nav1 {
+    background: url(../../images/myimg/11.png) no-repeat;
+}
+.nav1 a:hover{
+    background: url(../../images/myimg/2.jpg) no-repeat bottom;
+}
+.nav2 {
+    background: url(../../images/myimg/22.png) no-repeat;
+} 
+.nav2 a:hover {
+    background: url(../../images/myimg/1.jpg) no-repeat bottom;
+}
+.nav3 {
+    background: url(../../images/myimg/33.png) no-repeat;
+}
+.nav3 a:hover {
+    background: url(../../images/myimg/3.jpg) no-repeat bottom;
+}
+.nav4 {
+    background: url(../../images/myimg/44.png) no-repeat;
+}
+.nav4 a:hover {
+    background: url(../../images/myimg/4.jpg) no-repeat bottom;
+}
+.nav5 {
+    background: url(../../images/myimg/55.png) no-repeat;
+}
+.nav5 a:hover {
+    background: url(../../images/myimg/5.jpg) no-repeat bottom;
+}
+.nav6 {
+    background: url(../../images/myimg/66.png) no-repeat;
+}
+.nav6 a:hover {
+    background: url(../../images/myimg/6.jpg) no-repeat bottom;
+}
+.nav7 {
+    background: url(../../images/myimg/77.png) no-repeat;
+}
+.nav7 a:hover {
+    background: url(../../images/myimg/7.jpg) no-repeat bottom;
+}*/
+#Ban_li {
+    height: 29px;
+    background: #f3640e;
+}
+#Ban_li ul {
+    padding: 11px 0 0 509px;
+}
+#Ban_li li {
+    width: 8px;
+    height: 8px;
+    background: url(../../images/myimg/li.png) no-repeat center;
+    cursor: pointer;
+    margin-right: 15px;
+    float: left;
+}
+/*展示*/
+#introduce {
+    overflow: hidden;
+     background: url(../../images/myimg/body.png) no-repeat;
+    height: 254px;
+    margin: 0 auto;
+    width: 1015px;
+}
+#introduce ul {
+    padding-top: 54px;
+}
+#introduce ul li {
+    width: 312px;
+    height: 170px;
+    float: left;
+    padding-left: 20px;
+}
+#introduce li {
+    width: 1015px;
+    height: 323px;
+    float: left;
+   
+}
+.int li a {
+    width: 312px;
+    height: 170px;
+    display: block;
+    background-color: #c2c2c2;
+    background-blend-mode: multiply;
+}
+.int li a:hover{
+    background-color: transparent;
+}
+.by1 a {
+    background: url(../../images/myimg/in1.png) no-repeat;
+}
+.by2 a {
+    background: url(../../images/myimg/03.jpg) no-repeat;
+}
+.by3 a {
+    background: url(../../images/myimg/in6.png) no-repeat;
+}
+/*copyright*/
+#copyright_w{
+    background: #0a0a0a;
+    border-top: 1px solid #262626;
+    padding: 10px 0;
+    clear: both;
+}
+#copyright {
+    text-align: center;
+    color: #5f5e5e;
+    line-height: 24px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
